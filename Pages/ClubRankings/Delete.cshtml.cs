@@ -8,17 +8,18 @@ using Microsoft.EntityFrameworkCore;
 using RazorPagesClubRanking.Data;
 using RazorPagesClubRanking.Models;
 
-namespace RazorPagesClubRanking.Pages.ClubRanking
+namespace RazorPagesClubRanking.Pages.ClubRankings
 {
-    public class DetailsModel : PageModel
+    public class DeleteModel : PageModel
     {
         private readonly RazorPagesClubRanking.Data.RazorPagesClubRankingContext _context;
 
-        public DetailsModel(RazorPagesClubRanking.Data.RazorPagesClubRankingContext context)
+        public DeleteModel(RazorPagesClubRanking.Data.RazorPagesClubRankingContext context)
         {
             _context = context;
         }
 
+        [BindProperty]
         public ClubRanking ClubRanking { get; set; } = default!;
 
         public async Task<IActionResult> OnGetAsync(int? id)
@@ -29,6 +30,7 @@ namespace RazorPagesClubRanking.Pages.ClubRanking
             }
 
             var clubranking = await _context.ClubRanking.FirstOrDefaultAsync(m => m.Id == id);
+
             if (clubranking == null)
             {
                 return NotFound();
@@ -38,6 +40,24 @@ namespace RazorPagesClubRanking.Pages.ClubRanking
                 ClubRanking = clubranking;
             }
             return Page();
+        }
+
+        public async Task<IActionResult> OnPostAsync(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var clubranking = await _context.ClubRanking.FindAsync(id);
+            if (clubranking != null)
+            {
+                ClubRanking = clubranking;
+                _context.ClubRanking.Remove(ClubRanking);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToPage("./Index");
         }
     }
 }

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using RazorPagesClubRanking.Data;
 using RazorPagesClubRanking.Models;
 
-namespace RazorPagesClubRanking.Pages.ClubRanking
+namespace RazorPagesClubRanking.Pages.ClubRankings
 {
     public class IndexModel : PageModel
     {

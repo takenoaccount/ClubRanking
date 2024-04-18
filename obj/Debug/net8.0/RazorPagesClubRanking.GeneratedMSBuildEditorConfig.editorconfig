@@ -26,24 +26,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/takeshimakenta/clubRanking/RazorPagesClubRanking
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRanking/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmcvQ3JlYXRlLmNzaHRtbA==
+[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRankings/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmdzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRanking/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmcvRGVsZXRlLmNzaHRtbA==
+[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRankings/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmdzL0RlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRanking/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmcvRGV0YWlscy5jc2h0bWw=
+[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRankings/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmdzL0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRanking/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmcvRWRpdC5jc2h0bWw=
+[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRankings/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmdzL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRanking/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmcvSW5kZXguY3NodG1s
+[/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/ClubRankings/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2x1YlJhbmtpbmdzL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/Pages/Error.cshtml]

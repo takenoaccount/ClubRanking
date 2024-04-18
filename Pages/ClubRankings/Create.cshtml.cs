@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using RazorPagesClubRanking.Data;
 using RazorPagesClubRanking.Models;
 
-namespace RazorPagesClubRanking.Pages.ClubRanking
+namespace RazorPagesClubRanking.Pages.ClubRankings
 {
     public class CreateModel : PageModel
     {

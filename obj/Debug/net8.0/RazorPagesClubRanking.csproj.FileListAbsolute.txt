@@ -275,3 +275,4 @@
 /Users/takeshimakenta/clubRanking/RazorPagesClubRanking/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Windows.Extensions.dll
 /Users/takeshimakenta/clubRanking/RazorPagesClubRanking/obj/Debug/net8.0/RazorPagesClubRanking.csproj.AssemblyReference.cache
 /Users/takeshimakenta/clubRanking/RazorPagesClubRanking/obj/Debug/net8.0/RazorPag.AE7DBD50.Up2Date
+/Users/takeshimakenta/clubRanking/RazorPagesClubRanking/obj/Debug/net8.0/RazorPagesClubRanking.sourcelink.json
